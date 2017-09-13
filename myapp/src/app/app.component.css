@@ -1,4 +1,26 @@
 h3 {
+  text-align: center;
   color: blue;
+  font-family: 'Baloo Tammudu', cursive;
+}
+
+.main-p {
+  font-size: 120%;
+  font-family: 'Baloo Tammudu', cursive;
+  color: red;
+}
+
+div#users {
+  /*border: 1px solid black;*/
+  min-width: 160px;
+  max-width: 160px;
+  margin: 0 auto;
+}
+div.data-users {
+  position: relative;
+  margin: 0 auto;
+}
+
+.data-users h4 {
   font-family: 'Baloo Tammudu', cursive;
 }
