@@ -1,14 +1,16 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center" ng-app="app">
-  <h3>
-    Witaj w {{title}}!
-  </h3>
-  <img width="160" src="/myapp/photos/avatar.jpg" height="160"/>
+
+<div style="text-align:center">
+  <h4 class="title">
+    Witaj w {{ title }}!
+  </h4>
+  <img class="avatar" src="/myapp/photo/avatar.png">
 </div>
+<div class="decoration"></div>
 <div id="users">
   <div class="data-users">
-    <h4> Imię: </h4>
-    <h4> Nazwisko: </h4>
+    <small> Imię: <span> {{ name }} </span> </small><br>
+    <small> Nazwisko: <span> {{ lastname }} </span> </small><br>
+    <small> Email: <span> {{ email }} </span> </small>
   </div>
 </div>
 

@@ -1,26 +1,29 @@
-h3 {
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h4.title {
   text-align: center;
+  text-shadow: 1px 1px 1px gray;
   color: blue;
-  font-family: 'Baloo Tammudu', cursive;
 }
 
-.main-p {
-  font-size: 120%;
-  font-family: 'Baloo Tammudu', cursive;
-  color: red;
+img.avatar {
+  width: 80px;
+  height: 80px;
 }
 
-div#users {
-  /*border: 1px solid black;*/
-  min-width: 160px;
-  max-width: 160px;
-  margin: 0 auto;
-}
 div.data-users {
   position: relative;
-  margin: 0 auto;
+  left: 30%;
 }
 
-.data-users h4 {
-  font-family: 'Baloo Tammudu', cursive;
+div.data-users small {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+div.data-users span {
+  font-size: 16px;
+  font-weight: bolder;
 }
