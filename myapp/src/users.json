@@ -1,0 +1,21 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "firstname": "Michal",
+      "lastname": "Kolasinski",
+      "email": "m.kolasinski@gmail.com"
+    },
+    {
+      "id": 2,
+      "firstname": "Jan",
+      "lastname": "Nowak",
+      "email": "jan.nowak@wp.pl"
+    },
+    {
+      "id": 3,
+      "firstname": "Anna",
+      "lastname": "Lewandowska",
+      "email": "a.lewandowska@gmail.com"
+    }
+    }

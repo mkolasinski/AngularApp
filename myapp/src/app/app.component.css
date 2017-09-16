@@ -11,6 +11,7 @@ div.allcomponent {
   background-attachment: fixed;
   height: 100vh;
   margin: 0;
+  text-align: center;
 }
 
 h2.title {
@@ -33,13 +34,14 @@ img.avatar {
 div.user-info{
   text-align: left;
   position: absolute;
-  left: 40%;
+  bottom: 45%;
+  left: 15%;
 }
 
 div.data-users {
   position: relative;
-  border-radius: 25px;
-  background-color: whitesmoke;
+  border-radius: 30px;
+  background-color: #ffff90;
   width: 24%;
   height: 60%;
   margin: 0 auto 30px auto;
@@ -47,11 +49,14 @@ div.data-users {
 }
 
 div.data-users small {
-  font-size: 14px;
+  color: #000000;
+  font-size: 13px;
   font-weight: normal;
+  /*text-shadow: 2px 2px 2px darkslateblue;*/
 }
 
 div.data-users span {
-  font-size: 16px;
+  color: #000000;
+  font-size: 13px;
   font-weight: bolder;
 }
