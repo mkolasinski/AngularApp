@@ -10,7 +10,21 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Favourite App';
-  name = " Michal ";
-  lastname = " Kolasinski ";
-  email = " m.kolasinski@gmail.com";
+  // name = " Michal ";
+  // lastname = " Kolasinski ";
+  // email = " m.kolasinski@gmail.com";
+  users: [
+    {
+      id: 1,
+      firstname: 'Michal',
+      lastname: 'Kolasinski',
+      email: 'm.kolasinski@gmail.com'
+    },
+    {
+      id:2,
+      firstname: 'Klaudia',
+      lastname: 'Hestkowska-Kolasinska',
+      email: 'klaudia.hestkowska@gmail.com'
+    }
+    ]
 }
